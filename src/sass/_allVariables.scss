@@ -1,0 +1,20 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+$moutard : rgb(255, 200, 0);
+$noir : black;
+$snow : white;
+
+$colors : ("moutard": $moutard ,
+            "noir" : $noir ,
+            "snow" : $snow);
+
+
+$spacer: 10px;
+@for $i from 1 through 100{
+    $spacers: map-merge($spacers, ($i : $spacer * $i) );
+}
+
+
+$theme-colors : map-merge($colors , $theme-colors);
