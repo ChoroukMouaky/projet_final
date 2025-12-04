@@ -5,10 +5,13 @@
 $moutard : rgb(255, 200, 0);
 $noir : black;
 $snow : white;
+$softblack : rgba(58, 57, 57, 0.114);
+
 
 $colors : ("moutard": $moutard ,
             "noir" : $noir ,
-            "snow" : $snow);
+            "snow" : $snow,
+            "softblack" : $softblack);
 
 
 $spacer: 10px;

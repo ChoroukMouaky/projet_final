@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="fixed-top">
-        <div class="topbar py-1 fixed">
+        <div class="topbar py-1 fixed bg-softblack opacity-50">
         <div class="container d-flex justify-content-between align-items-center">
         <div class="d-flex gap-4 text1">
-            <a><i class="bi bi-phone text-moutard"></i> +1 5589 55488 55</a>
-            <a><i class="bi bi-clock text-moutard"></i> Mon-Sat: 11:00 AM - 23:00 PM</a>
+            <a class="text-snow"><i class="bi bi-phone text-moutard"></i> +1 5589 55488 55</a>
+            <a class="text-snow"><i class="bi bi-clock text-moutard opacity-100"></i> Mon-Sat: 11:00 AM - 23:00 PM</a>
         </div>
             <a href="#" class="btn btn-moutard custum_btn">Book a table</a>
         </div>
@@ -46,9 +46,6 @@
 </nav>
 </div>
 
-
-    
-                
 
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -100,6 +97,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
 
 <div class="flex_crs_prg">
     <div>
@@ -271,46 +269,88 @@
     </div>
 </div>
 
-
-<div class="section">
-<div id="carouselExampleCaptions" class="carousel slide">
+<div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="./public/img/events-slider-1.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-item active" data-bs-interval="10000">
+    <img class="event_carousel" src="./public/img/events-bg.jpg" class="d-block w-100" alt="...">
     <div class="carousel-caption d-none d-md-block">
-        <h1>Birthday parties</h1>
-        <h2>$189</h2>
-        <p></p>
+        <div class="events">
+            <div>
+                <img src="./public/img/events-slider-1.jpg" alt="">
+            </div>
+            <div class="text-snow prg">
+                <h1>Birthday parties</h1>
+                <h2 class="text-moutard">$189</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora, laudantium quibusdam molestiae recusandae nisi odit sapiente reiciendis fugiat?</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                <p>Ullamco laboris nisit ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendit in voluptate velit esse cilium dolore eu fugiat nuiat</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+    <img class="event_carousel" src="./public/img/events-bg.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block">
+        <div class="events">
+            <div>
+                <img src="./public/img/events-slider-2.jpg" alt="">
+            </div>
+            <div class="text-snow prg">
+                <h1>Private parties</h1>
+                <h2 class="text-moutard">$290</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora, laudantium quibusdam molestiae recusandae nisi odit sapiente reiciendis fugiat?</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                <p>Ullamco laboris nisit ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendit in voluptate velit esse cilium dolore eu fugiat nuiat</p>
+            </div>
+        </div>
     </div>
     </div>
     <div class="carousel-item">
-        <img src="./public/img/events-slider-2.jpg" class="d-block w-100" alt="...">
+    <img class="event_carousel" src="./public/img/events-bg.jpg" class="d-block w-100" alt="...">
     <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <div class="events">
+            <div>
+                <img src="./public/img/events-slider-3.jpg" alt="">
+            </div>
+            <div class="text-snow prg">
+                <h1>Custom parties</h1>
+                <h2 class="text-moutard">$99</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora, laudantium quibusdam molestiae recusandae nisi odit sapiente reiciendis fugiat?</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p><i class="bi bi-check2-circle text-moutard"></i>Ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                <p>Ullamco laboris nisit ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendit in voluptate velit esse cilium dolore eu fugiat nuiat</p>
+            </div>
+        </div>
     </div>
     </div>
-    <div class="carousel-item">
-        <img src="./public/img/events-slider-3.jpg" class="d-block w-100" alt="...">
-    <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
     </div>
-    </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+</div>
+
+
+</div>
+
+
 </div>
 
 

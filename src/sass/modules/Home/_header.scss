@@ -97,10 +97,20 @@ margin:0%;
     gap: 8px;
 }
 
-.section{
-    background-image: url(../../../../public/img/events-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    img{
+        width: 35vw;
+        height: 45vh;
+    }
+
+}
+
+.event_carousel{
+    height: 75vh;
     width: 100vw;
-    height: 65vh;
+    opacity: 90%;
 }
