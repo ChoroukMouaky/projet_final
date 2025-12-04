@@ -50131,4 +50131,10 @@ textarea.form-control-lg {
   object-fit: cover;
 }
 
+.touch {
+  border: 1px solid transparent;
+  background-color: white;
+  padding: 2vh 3;
+}
+
 /*# sourceMappingURL=app.css.map */
