@@ -50121,9 +50121,14 @@ textarea.form-control-lg {
   box-shadow: 0.3s ease;
 }
 
-.img-gallery:hover {
-  transform: scale(1.04);
-  box-shadow: 0px 8px 20px rgba(233, 167, 80, 0.696);
+.chefs_flex {
+  display: flex;
+  padding: 4vh 4vw;
+}
+.chefs_flex img {
+  width: 30vw;
+  height: vh;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=app.css.map */
