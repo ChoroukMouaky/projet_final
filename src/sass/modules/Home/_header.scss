@@ -106,11 +106,52 @@ margin:0%;
         width: 35vw;
         height: 45vh;
     }
-
 }
 
 .event_carousel{
     height: 75vh;
     width: 100vw;
     opacity: 90%;
+}
+.table_flex{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.133);
+    gap:30px;
+    height: 75vh;
+    padding: 0px 25px 0px 0px;
+}
+
+.table_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+}
+.table_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.im-grid img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+}
+.message_size{
+    padding-top: 5vh;
+    textarea{
+    width: 70vw;
+    height: 25vh;
+}
+}
+.table_button{
+    padding-top: 5vh;
+    button{
+        width: 10vw;
+        height: 5vh;
+        background-color: $moutard;
+        color: $snow;
+        border: 1px solid transparent;
+        border-radius: 20px;
+    }
 }
